@@ -7,20 +7,18 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Cabeçalho com logo -->
+  <!-- Hero minimalista -->
   <header class="hero">
     <div class="logo">
       <img src="logo.png" alt="Logo Assistência Técnica">
     </div>
     <div class="hero-text">
       <h1>Assistência Técnica em Informática</h1>
-          <a class="btn-whatsapp" href="https://wa.me/5547988992553?text=Olá%20preciso%20de%20suporte%20técnico" target="_blank">
-        Fale pelo WhatsApp
-      </a>
+      <h2 class="slogan">Tecnologia confiável, soluções rápidas.</h2>
     </div>
   </header>
 
-  <!-- Menu de navegação -->
+  <!-- Navegação simples -->
   <nav>
     <a href="index.html">Início</a>
     <a href="sobre.html">Sobre</a>
@@ -28,50 +26,17 @@
     <a href="contato.html">Contato</a>
   </nav>
 
-  <!-- Conteúdo inicial -->
-  <section>
-    <h2>Bem-vindo à nossa empresa</h2>
-    <p>A Assistência Técnica em Informática, fundada em 2024 em Blumenau/SC, nasceu com o propósito de oferecer soluções rápidas, confiáveis e acessíveis na área de tecnologia. Desde sua criação, a 
-      empresa tem como foco principal garantir que pessoas e empresas possam contar com equipamentos e sistemas funcionando com máxima eficiência.    </p>
-    <p>Com uma equipe qualificada e apaixonada por inovação, buscamos constantemente aprimorar nossos serviços e acompanhar as tendências tecnológicas.</p>
-    <p>Nosso compromisso é entregar não apenas suporte técnico, mas também confiança, transparência e excelência em cada atendimento.</p>  
+  <!-- Texto institucional -->
+  <section class="apresentacao">
+    <p>
+      Somos especializados em formatação e manutenção de notebooks, realizamos consultoria na aquisição de software e hardware, realizamos instalação de software e upgrade. Smpre prestamos o melhor atendimento, com 
+      responsabilidade na qualidade de serviço e no atendimento, sempre realizamos o retorno de como está o andamento do atendimento e com facilidade no acionamento via whatsapp, onde estamos disponíveis 24 horas para
+      atender o nosso cliente.
+    </p>
   </section>
-
-  <section class="diferenciais">
-  <h2>Nossos Diferenciais</h2>
-  <ul>
-    <li><strong>Experiência sólida:</strong> Profissionais com formação técnica e atuação prática na área de informática.</li>
-    <li><strong>Atendimento personalizado:</strong> Soluções sob medida para cada cliente.</li>
-    <li><strong>Inovação constante:</strong> Atualização contínua em novas tecnologias e ferramentas.</li>
-    <li><strong>Credibilidade:</strong> Empresa fundada em 2024, já reconhecida pela qualidade em Blumenau e região.</li>
-  </ul>
-</section>
-<section class="institucional">
-  <h2>Missão, Visão e Valores</h2>
-  <ul>
-    <li><strong>Missão:</strong> Garantir que nossos clientes tenham tecnologia funcionando sem preocupações.</li>
-    <li><strong>Visão:</strong> Ser referência em assistência técnica e consultoria em TI na região.</li>
-    <li><strong>Valores:</strong> Ética, transparência, inovação e compromisso com o cliente.</li>
-  </ul>
-</section>
-
-  <!-- Chat WhatsApp -->
-  <div class="chat-box">
-    <h3>Converse pelo WhatsApp</h3>
-    <input type="text" id="mensagem" placeholder="Digite sua mensagem...">
-    <button onclick="enviarWhatsApp()">Enviar</button>
-  </div>
 
   <footer>
     <p>&copy; 2026 Assistência Técnica em Informática - Blumenau/SC</p>
   </footer>
-
-  <script>
-    function enviarWhatsApp() {
-      var mensagem = document.getElementById("mensagem").value;
-      var url = "https://wa.me/5547988992553?text=" + encodeURIComponent(mensagem);
-      window.open(url, "_blank");
-    }
-  </script>
 </body>
 </html>
