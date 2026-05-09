@@ -118,3 +118,52 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+
+/* 🌐 Responsividade */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .logo img {
+    width: 90px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 40px 15px;
+  }
+
+  .chat-box {
+    width: 90%;
+    right: 5%;
+  }
+
+  .btn-whatsapp {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.8em;
+  }
+
+  .hero-text p {
+    font-size: 1em;
+  }
+
+  .chat-box {
+    width: 95%;
+    right: 2.5%;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+}
