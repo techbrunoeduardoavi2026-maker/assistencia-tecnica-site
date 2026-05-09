@@ -286,3 +286,62 @@ footer {
   left: 0;
 }
 
+.responsavel {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.responsavel h2 {
+  text-align: center;
+  color: #0078d7;
+  margin-bottom: 30px;
+}
+
+.perfil {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.foto-responsavel {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.info {
+  flex: 1;
+}
+
+.info h3 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.info p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info li {
+  margin: 10px 0;
+  font-size: 15px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.info li::before {
+  content: "✔";
+  color: #25D366;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
