@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.hero {
+  background: url('capa.png') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+}
+
+.logo img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+nav {
+  background: #004080;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section h2 {
+  color: #0078d7;
+  margin-bottom: 20px;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5d;
+}
+
+.chat-box {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+.chat-box h3 {
+  margin-top: 0;
+  color: #0078d7;
+}
+
+.chat-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-box button {
+  background-color: #25D366;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.chat-box button:hover {
+  background-color: #1ebe5d;
+}
+
+footer {
+  background-color: #0078d7;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}

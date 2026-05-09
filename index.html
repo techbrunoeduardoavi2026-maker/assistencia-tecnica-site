@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assistência Técnica em Informática</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho com logo -->
+  <header class="hero">
+    <div class="logo">
+      <img src="logo.png" alt="Logo Assistência Técnica">
+    </div>
+    <div class="hero-text">
+      <h1>Assistência Técnica em Informática</h1>
+      <p>Fundada em 2024 para oferecer soluções rápidas e confiáveis em tecnologia</p>
+      <a class="btn-whatsapp" href="https://wa.me/5547988992553?text=Olá%20preciso%20de%20suporte%20técnico" target="_blank">
+        Fale pelo WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- Menu de navegação -->
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <!-- Conteúdo inicial -->
+  <section>
+    <h2>Bem-vindo à nossa empresa</h2>
+    <p>Fundada pelo Bruno Eduardo Avi, Técnico de Suporte de TI Jr no SENAI de Blumenau, o intuito dessa fundação é auxiliar as pessoas com 
+        suporte especializado e um atendimento facilitado e de qualidade na realização dos serviços e na consultoria na aquisição de computadores
+        para o uso pessoal e empresarial.
+    </p>
+  </section>
+
+  <!-- Chat WhatsApp -->
+  <div class="chat-box">
+    <h3>Converse pelo WhatsApp</h3>
+    <input type="text" id="mensagem" placeholder="Digite sua mensagem...">
+    <button onclick="enviarWhatsApp()">Enviar</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Assistência Técnica em Informática - Blumenau/SC</p>
+  </footer>
+
+  <script>
+    function enviarWhatsApp() {
+      var mensagem = document.getElementById("mensagem").value;
+      var url = "https://wa.me/5547988992553?text=" + encodeURIComponent(mensagem);
+      window.open(url, "_blank");
+    }
+  </script>
+</body>
+</html>
