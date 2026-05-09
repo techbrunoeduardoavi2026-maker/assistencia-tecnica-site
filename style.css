@@ -215,3 +215,74 @@ footer {
   color: #25D366;
   font-size: 16px;
 }
+.diferenciais {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.diferenciais h2 {
+  text-align: center;
+  color: #0078d7;
+  margin-bottom: 20px;
+}
+
+.diferenciais ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.diferenciais li {
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 25px;
+}
+
+.diferenciais li::before {
+  content: "✔";
+  color: #25D366;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.institucional {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 40px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.institucional h2 {
+  text-align: center;
+  color: #0078d7;
+  margin-bottom: 20px;
+}
+
+.institucional ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.institucional li {
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 30px;
+}
+
+.institucional li::before {
+  content: "★";
+  color: #0078d7;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
