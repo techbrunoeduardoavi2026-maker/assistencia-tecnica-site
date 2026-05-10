@@ -47,6 +47,8 @@ O objetivo é apresentar os serviços oferecidos, informações sobre a empresa 
 O site pode ser hospedado gratuitamente usando **[GitHub Pages](ca://s?q=Tutorial_detalhado_para_hospedar_no_GitHub_Pages)**.  
 Após publicar, ficará disponível em:  
 `https://seuusuario.github.io/assistencia-tecnica-site`
+Link do site hospedado:
+[https://github.com/techbrunoeduardoavi2026-maker/assistencia-tecnica-site](https://techbrunoeduardoavi2026-maker.github.io/assistencia-tecnica-site/index.html)
 
 ---
 
