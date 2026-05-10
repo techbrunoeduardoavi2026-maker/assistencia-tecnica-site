@@ -55,3 +55,38 @@ Repositório:
 ## 🧩 Créditos
 Desenvolvido por **Bruno** — Projeto institucional de Assistência Técnica em Informática.  
 Design e identidade visual criados com foco em simplicidade, tecnologia e confiança.  
+
+📖 Manual de Publicação no GitHub Pages
+1. Criar o Repositório
+Acesse GitHub e faça login.
+
+Crie um novo repositório com o nome:
+assistencia-tecnica-site
+
+Defina como público e não adicione README inicial (pois já vamos criar).
+
+2. Adicionar os Arquivos do Site
+No seu computador, organize os arquivos do projeto:
+
+index.html
+sobre.html
+servicos.html
+contato.html
+style.css
+Imagens (logo, capa, etc.)
+Faça o upload dos arquivos para o repositório no GitHub.
+
+3. Publicar no GitHub Pages
+No repositório, vá em Settings → Pages.
+
+Em Branch, selecione main e a pasta /root.
+
+Clique em Save.
+
+O GitHub Pages irá gerar automaticamente o link:
+
+Código
+https://seuusuario.github.io/assistencia-tecnica-site
+4. Testar o Site
+Acesse o link gerado e verifique se todas as páginas estão funcionando.
+Caso precise atualizar, basta fazer commit dos novos arquivos no repositório.
